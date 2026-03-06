@@ -1,0 +1,37 @@
+﻿  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\ZLShop\ZLShop\Program.cs(3,7): warning CS0105: The using directive for 'Microsoft.EntityFrameworkCore' appeared previously in this namespace [D:\ZLShop\ZLShop\ZLShop.csproj]
+D:\ZLShop\ZLShop\Models\Entities\Cart.cs(5,16): warning CS0108: 'Cart.Id' hides inherited member 'BaseEntity.Id'. Use the new keyword if hiding was intended. [D:\ZLShop\ZLShop\ZLShop.csproj]
+D:\ZLShop\ZLShop\Models\Entities\CartItem.cs(5,16): warning CS0108: 'CartItem.Id' hides inherited member 'BaseEntity.Id'. Use the new keyword if hiding was intended. [D:\ZLShop\ZLShop\ZLShop.csproj]
+D:\ZLShop\ZLShop\Services\Auth\JwtService.cs(5,37): error CS0246: The type or namespace name 'User' could not be found (are you missing a using directive or an assembly reference?) [D:\ZLShop\ZLShop\ZLShop.csproj]
+D:\ZLShop\ZLShop\Services\Auth\JwtService.cs(17,50): error CS0246: The type or namespace name 'User' could not be found (are you missing a using directive or an assembly reference?) [D:\ZLShop\ZLShop\ZLShop.csproj]
+D:\ZLShop\ZLShop\Models\Entities\Role.cs(5,16): warning CS0108: 'Role.Id' hides inherited member 'BaseEntity.Id'. Use the new keyword if hiding was intended. [D:\ZLShop\ZLShop\ZLShop.csproj]
+D:\ZLShop\ZLShop\Models\Entities\RolePermission.cs(5,16): warning CS0108: 'RolePermission.Id' hides inherited member 'BaseEntity.Id'. Use the new keyword if hiding was intended. [D:\ZLShop\ZLShop\ZLShop.csproj]
+D:\ZLShop\ZLShop\Models\Entities\Permission.cs(5,16): warning CS0108: 'Permission.Id' hides inherited member 'BaseEntity.Id'. Use the new keyword if hiding was intended. [D:\ZLShop\ZLShop\ZLShop.csproj]
+D:\ZLShop\ZLShop\Models\Entities\User.cs(6,16): warning CS0108: 'User.Id' hides inherited member 'BaseEntity.Id'. Use the new keyword if hiding was intended. [D:\ZLShop\ZLShop\ZLShop.csproj]
+D:\ZLShop\ZLShop\Models\Entities\User.cs(16,22): warning CS0108: 'User.CreatedAt' hides inherited member 'BaseEntity.CreatedAt'. Use the new keyword if hiding was intended. [D:\ZLShop\ZLShop\ZLShop.csproj]
+D:\ZLShop\ZLShop\Models\Entities\User.cs(17,22): warning CS0108: 'User.UpdatedAt' hides inherited member 'BaseEntity.UpdatedAt'. Use the new keyword if hiding was intended. [D:\ZLShop\ZLShop\ZLShop.csproj]
+D:\ZLShop\ZLShop\Models\Entities\UserAddress.cs(5,16): warning CS0108: 'UserAddress.Id' hides inherited member 'BaseEntity.Id'. Use the new keyword if hiding was intended. [D:\ZLShop\ZLShop\ZLShop.csproj]
+D:\ZLShop\ZLShop\Models\Entities\UserAddress.cs(14,22): warning CS0108: 'UserAddress.CreatedAt' hides inherited member 'BaseEntity.CreatedAt'. Use the new keyword if hiding was intended. [D:\ZLShop\ZLShop\ZLShop.csproj]
+D:\ZLShop\ZLShop\Models\Entities\UserAddress.cs(15,22): warning CS0108: 'UserAddress.UpdatedAt' hides inherited member 'BaseEntity.UpdatedAt'. Use the new keyword if hiding was intended. [D:\ZLShop\ZLShop\ZLShop.csproj]
+
+Build FAILED.
+
+D:\ZLShop\ZLShop\Program.cs(3,7): warning CS0105: The using directive for 'Microsoft.EntityFrameworkCore' appeared previously in this namespace [D:\ZLShop\ZLShop\ZLShop.csproj]
+D:\ZLShop\ZLShop\Models\Entities\Cart.cs(5,16): warning CS0108: 'Cart.Id' hides inherited member 'BaseEntity.Id'. Use the new keyword if hiding was intended. [D:\ZLShop\ZLShop\ZLShop.csproj]
+D:\ZLShop\ZLShop\Models\Entities\CartItem.cs(5,16): warning CS0108: 'CartItem.Id' hides inherited member 'BaseEntity.Id'. Use the new keyword if hiding was intended. [D:\ZLShop\ZLShop\ZLShop.csproj]
+D:\ZLShop\ZLShop\Models\Entities\Role.cs(5,16): warning CS0108: 'Role.Id' hides inherited member 'BaseEntity.Id'. Use the new keyword if hiding was intended. [D:\ZLShop\ZLShop\ZLShop.csproj]
+D:\ZLShop\ZLShop\Models\Entities\RolePermission.cs(5,16): warning CS0108: 'RolePermission.Id' hides inherited member 'BaseEntity.Id'. Use the new keyword if hiding was intended. [D:\ZLShop\ZLShop\ZLShop.csproj]
+D:\ZLShop\ZLShop\Models\Entities\Permission.cs(5,16): warning CS0108: 'Permission.Id' hides inherited member 'BaseEntity.Id'. Use the new keyword if hiding was intended. [D:\ZLShop\ZLShop\ZLShop.csproj]
+D:\ZLShop\ZLShop\Models\Entities\User.cs(6,16): warning CS0108: 'User.Id' hides inherited member 'BaseEntity.Id'. Use the new keyword if hiding was intended. [D:\ZLShop\ZLShop\ZLShop.csproj]
+D:\ZLShop\ZLShop\Models\Entities\User.cs(16,22): warning CS0108: 'User.CreatedAt' hides inherited member 'BaseEntity.CreatedAt'. Use the new keyword if hiding was intended. [D:\ZLShop\ZLShop\ZLShop.csproj]
+D:\ZLShop\ZLShop\Models\Entities\User.cs(17,22): warning CS0108: 'User.UpdatedAt' hides inherited member 'BaseEntity.UpdatedAt'. Use the new keyword if hiding was intended. [D:\ZLShop\ZLShop\ZLShop.csproj]
+D:\ZLShop\ZLShop\Models\Entities\UserAddress.cs(5,16): warning CS0108: 'UserAddress.Id' hides inherited member 'BaseEntity.Id'. Use the new keyword if hiding was intended. [D:\ZLShop\ZLShop\ZLShop.csproj]
+D:\ZLShop\ZLShop\Models\Entities\UserAddress.cs(14,22): warning CS0108: 'UserAddress.CreatedAt' hides inherited member 'BaseEntity.CreatedAt'. Use the new keyword if hiding was intended. [D:\ZLShop\ZLShop\ZLShop.csproj]
+D:\ZLShop\ZLShop\Models\Entities\UserAddress.cs(15,22): warning CS0108: 'UserAddress.UpdatedAt' hides inherited member 'BaseEntity.UpdatedAt'. Use the new keyword if hiding was intended. [D:\ZLShop\ZLShop\ZLShop.csproj]
+D:\ZLShop\ZLShop\Services\Auth\JwtService.cs(5,37): error CS0246: The type or namespace name 'User' could not be found (are you missing a using directive or an assembly reference?) [D:\ZLShop\ZLShop\ZLShop.csproj]
+D:\ZLShop\ZLShop\Services\Auth\JwtService.cs(17,50): error CS0246: The type or namespace name 'User' could not be found (are you missing a using directive or an assembly reference?) [D:\ZLShop\ZLShop\ZLShop.csproj]
+    12 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:01.63

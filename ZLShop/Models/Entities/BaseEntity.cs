@@ -1,7 +1,6 @@
 namespace ZLShop.Models.Entities;
 
 public abstract class BaseEntity{
-    public string Id {get; set;} = null!;
     public DateTime CreatedAt {get; set;} = DateTime.UtcNow;
     public DateTime UpdatedAt {get; set;}
     public bool IsDeleted {get; set;} = false;

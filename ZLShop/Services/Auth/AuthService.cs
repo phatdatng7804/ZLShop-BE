@@ -9,9 +9,11 @@ namespace ZLShop.Services.Auth;
 public class AuthService : IAuthService
 {
     private readonly AppDbContext _context;
-    public AuthService(AppDbContext context)
+    private readonly IJwtService _jwtService;
+    public AuthService(AppDbContext context, IJwtService jwtService)
     {
         _context = context;
+        _jwtService = jwtService;
     }
     public async Task<RegisterResponseDto> RegisterAsync(RegisterRequestDto request)
     {
@@ -43,5 +45,23 @@ public class AuthService : IAuthService
     }
     public async Task<LoginResponseDto> LoginAsync(LoginRequestDto request)
     {
+        var user = await _context.Users
+            .Include(u => u.Role)
+            .FirstOrDefaultAsync(u => u.Email == request.Username || u.Username == request.Username);
+        if(user == null)
+        {
+            throw new BadRequestException("Email hoặc Username không chính xác");
+        }
+        if(!BCrypt.Net.BCrypt.Verify(request.Password, user.Password))
+        {
+            throw new BadRequestException("Mật khẩu không chính xác");
+        }
+        
+        var token = await _jwtService.GenerateTokenAsync(user);
+        
+        return new LoginResponseDto
+        {
+            Token = token
+        };
     }
 }
